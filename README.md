@@ -24,7 +24,7 @@ Harnessing the power of popular libraries such as `pytube`, `mutagen`, and `tqdm
 
 ## Video Walkthrough
 
-[Watch it on Youtube](https://youtu.be/gQpktXQwOyc)
+[Watch it on Youtube](https://www.youtube.com/playlist?list=PLFSdcwZzq5YG-boHtXGR1Akypl3BYXtMY)
 
 ## Setting Sail with PixelPirate
 
