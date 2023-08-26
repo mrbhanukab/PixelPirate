@@ -1,52 +1,92 @@
 # PixelPirate
 
-**PixelPirate** is your trusted matey in the digital seas, built to plunder the treasures of YouTube in the finest resolution. With enhanced features like automatic dependency installation and progress bars, setting its sights on high-quality content has never been easier. This downloader is engineered to quickly and efficiently capture videos for offline viewing, making your content consumption voyage smoother than ever.
+PixelPirate is your ultimate YouTube video downloader, ensuring high-quality content even offline! [Click image to watch the video]
 
-## How It Works
+[![Watch the video](https://img.youtube.com/vi/T9dFwPH7DAA/maxresdefault.jpg)](https://www.youtube.com/watch?v=T9dFwPH7DAA&list=PLFSdcwZzq5YG-boHtXGR1Akypl3BYXtMY&index=1)
 
-Harnessing the power of popular libraries such as `pytube`, `mutagen`, and `tqdm`, PixelPirate follows these steps:
 
-1. **URL Input:** The user provides a comma-separated list of YouTube video URLs.
-2. **Resolution Selection:** The script automatically sails towards the highest available resolution for each video.
-3. **Filename Sanitization:** To ensure your treasures are stored without any hiccups, PixelPirate sanitizes video titles, keeping them safe from potential filename conflicts.
-4. **Download:** Videos are swiftly downloaded to the user-specified directory with an interactive progress bar.
-5. **User Feedback:** Progress reports keep the user informed throughout the voyage.
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Supported operating systems](#supported-operating-systems)
+- [Setup & Installation](#setup--installation)
+- [Usage](#usage)
+- [Optimizations](#optimizations)
+- [Contribution Guidelines](#contribution-guidelines)
+- [License](#license)
+- [Credits](#credits)
 
-## Function Breakdown
+## Introduction
 
-- **clear_console:** Clears the terminal screen.
-- **install:** Installs the missing Python packages automatically.
-- **sanitize_filename:** Ensures the filename doesn't contain characters that might cause issues.
-- **progress_stream:** Updates the progress bar during the video download.
-- **download_video:** Handles the main video downloading functionality, including metadata embedding.
-- **display_copyright:** Shows a respectful copyright notice about video content.
-- **main:** The main function that orchestrates the whole downloading process.
+PixelPirate is engineered to swiftly capture videos from YouTube for offline consumption. Designed for those who wish to have their favorite videos accessible without the need for an internet connection, it brings efficiency and reliability to your content consumption voyage.
 
-## Video Walkthrough
+## Features
 
-[Watch it on Youtube](https://www.youtube.com/playlist?list=PLFSdcwZzq5YG-boHtXGR1Akypl3BYXtMY)
+- **High-Quality Downloads:** Always fetches the best available resolution.
+- **Automatic Dependency Handling:** No more manual library installation; PixelPirate has got you covered.
+- **Interactive UI:** An intuitive progress bar that keeps you updated.
+- **Metadata Embedding:** Enriches your downloaded videos with essential metadata.
+- **Filename Sanitization:** Ensures safe and conflict-free storage.
 
-## Setting Sail with PixelPirate
+## Technologies Used
 
-1. **Clone the Repository:** Begin by cloning the PixelPirate repository to your local machine.
-2. **Install Dependencies:** PixelPirate now auto-installs any missing dependencies. Just run the script, and it'll take care of the rest!
-3. **Specify Credentials:** Add your desired destination directory and YouTube URLs.
-4. **Run the Script:** Navigate to your terminal or command prompt, and launch `ytsave.py`.
-5. **Enjoy Your Treasures:** Once downloaded, navigate to your specified directory and enjoy the content offline.
+- **Python:** For back-end logic and the main scripting language.
+- **pytube:** To interface with YouTube and handle video downloads.
+- **mutagen:** To embed metadata into downloaded videos.
+- **tqdm:** To showcase the interactive download progress bar.
 
-## Customization
+## Supported operating systems
+![Windows](	https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Mac](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-PixelPirate offers ample room for customization:
+## Setup & Installation
 
-- **Video Resolution:** Though currently set to download the highest resolution, you can easily adjust preferences within the script.
-- **Download Directory:** Choose any location on your machine to store your videos.
-- **Additional Features:** Expand the script to include features like playlist downloads, audio extraction, or integration with other platforms.
+### Prerequisites
+
+- Python installed on your system.
+- pip, the Python package manager.
+
+### Steps
+
+1. Clone the PixelPirate repository to your local machine.
+2. Navigate to the cloned repository.
+3. Run the `ytsave.py` script. The script will handle any missing dependencies.
+4. Specify the desired destination directory and YouTube URLs.
+
+## Usage
+
+Upon running the script, the console will prompt you for:
+
+1. Your desired destination directory.
+2. The YouTube URLs you wish to download (comma-separated).
+
+The videos will then be downloaded to your specified directory.
+
+```bash
+# Example
+Enter destination folder: /path/to/your/folder
+Enter YouTube video URLs separated by a comma: https://youtube.com/video1, https://youtube.com/video2
+```
+
+## Optimizations
+
+Performance improvements were made to ensure quick downloads. Filename sanitization ensures a hiccup-free storage experience, and automatic dependency installation reduces user intervention.
+
+## Contribution Guidelines
+
+PixelPirate welcomes contributions. Fork the repository, make your changes in a new branch, and submit a pull request. Detailed guidelines can be found in the repository.
+
+## License
+
+This project is licensed under the terms of the MIT License. You can check out the full license [here](https://github.com/mrbhanukab/PixelPirate/blob/main/LICENSE). **Also Make sure to always respect the copyrights of video content creators.**
 
 ## Credits
 
-PixelPirate is the brainchild of [mrbhanukab](https://github.com/mrbhanukab). Feel free to dock at the GitHub repository to contribute, drop anchor on issues, or set forth suggestions.
+PixelPirate is the brainchild of [mrbhanukab](https://github.com/mrbhanukab). For contributions, issues, or suggestions, visit the GitHub repository.
 
-Sail forth into the vast expanses of YouTube content with PixelPirate, ensuring you always have your favorite videos, no internet connection required.
-
-[![github](https://img.shields.io/badge/Github-mrbhanukab-%23333?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/mrbhanukab)<br>
-[![twitter](https://img.shields.io/badge/Twitter-mrbhanuka-%2300acee?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/mrbhanuka)
+[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mrbhanukab)
+[![twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/mrbhanuka)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhanuka-bandara-8a209420a)
+[![kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/bhanukabandara)
